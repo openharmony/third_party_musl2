@@ -23,7 +23,6 @@ struct pthread {
 	uintptr_t canary, canary2;
 
 	/* Part 2 -- implementation details, non-ABI. */
-	pid_t pid;
 	int tid;
 	int errno_val;
 	volatile int detach_state;
